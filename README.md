@@ -1,4 +1,3 @@
-# UnityLiveProject
 # Unity Live Project - Code Summary
 ## <a name="intro"></a>Introduction
 I took part in a 2-week sprint for the Live Project as part of the Tech Academy's Game Development Bootcamp. During this live project I made a version of the classic arcade game Space Invaders using Unity and C#. Creating a game from scratch was a great experience in learning both the Unity editor and C#. Through this experience I have become familiar in not only how to navigate the Unity Editor but also in utilizing Unity components and game objects. I also gained experience in manipulating Unity game objects with C#. More specifically, I created C# scripts for each feature of the game and within those scripts, I utilized built-in functions, conditional statements, and more.
@@ -6,9 +5,9 @@ Furthermore, the live project was a great way to experience what it is like to w
 I also gained experience in version control as I used GitHub desktop to create a branch for each story, merge the master to the branch daily, commit and push changes to the remote branch, and resolve any merge conflicts that occurred. When I resolved a story, I would create a pull request through Azure DevOps, link the pull request to the particular story, and move my story to the resolved column in the Board so that the instructors could review and either approve my pull request or move it back into the Active column with feedback for more changes. 
 Overall, through this live project, I was able to experience what it was like to work in a collaborative Agile/Scrum environment. I also gained experience in utilizing the Unity editor and in Object Oriented Programming with C#. Additionally, I learned the importance of committing frequently and describing code in detail. Below is a summary of each story I resolved with code snippets and gifs to illustrate the features of the game and the code of the functionalities implemented. The folders and files in this repository hold more in-depth code snippets and gifs.
 ### Folder navigation:
-[Finalized game code snippets and gifs](/FINAL-code-snippets-and-gifs)
-[Code snippets and gifs taken during development](/code-snippets-and-gifs)
-[Code snippets and gifs shown on this README](/code-summary-snippets-and-gifs)
+* [Finalized game code snippets and gifs](https://github.com/danielle-han/UnityLiveProject/tree/main/FINAL%20code%20snippets%20and%20gifs)
+* [Code snippets and gifs taken during development](/code-snippets-and-gifs)
+* [Code snippets and gifs shown on this README](/code-summary-snippets-and-gifs)
 
 ## Table of Contents
 * [Story 1: Creating the Basic Scenes](#story1)
