@@ -1,9 +1,13 @@
 # Unity Live Project - Code Summary
 ## <a name="intro"></a>Introduction
 I took part in a 2-week sprint for the Live Project as part of the Tech Academy's Game Development Bootcamp. During this live project I made a version of the classic arcade game Space Invaders using Unity and C#. Creating a game from scratch was a great experience in learning both the Unity editor and C#. Through this experience I have become familiar in not only how to navigate the Unity Editor but also in utilizing Unity components and game objects. I also gained experience in manipulating Unity game objects with C#. More specifically, I created C# scripts for each feature of the game and within those scripts, I utilized built-in functions, conditional statements, and more. <br>
+
 Furthermore, the live project was a great way to experience what it is like to work in a collaborative environment as it made use of Agile/Scrum methodology and DevOps.  Throughout this sprint, I took part in daily standup meetings, a sprint planning, and two sprint retrospectives. Communication was also a key part of this sprint in that, not only were there daily standups, but I also sent daily reports to the project manager to keep track of my progress. Additionally, I completed this project by resolving user stories that were assigned to me through Azure DevOps. <br>
+
 I also gained experience in version control as I used GitHub desktop to create a branch for each story, merge the master to the branch daily, commit and push changes to the remote branch, and resolve any merge conflicts that occurred. When I resolved a story, I would create a pull request through Azure DevOps, link the pull request to the particular story, and move my story to the resolved column in the Board so that the instructors could review and either approve my pull request or move it back into the Active column with feedback for more changes. <br>
+
 Overall, through this live project, I was able to experience what it was like to work in a collaborative Agile/Scrum environment. I also gained experience in utilizing the Unity editor and in Object Oriented Programming with C#. Additionally, I learned the importance of committing frequently and describing code in detail. Below is a summary of each story I resolved with code snippets and gifs to illustrate the features of the game and the code of the functionalities implemented. The folders and files in this repository hold more in-depth code snippets and gifs.
+
 ### Folder navigation:
 * [Finalized game code snippets and gifs](https://github.com/danielle-han/UnityLiveProject/tree/main/FINAL%20code%20snippets%20and%20gifs)
 * [Code snippets and gifs taken during development](https://github.com/danielle-han/UnityLiveProject/tree/main/code%20snippets%20and%20gifs)
@@ -40,6 +44,7 @@ Overall, through this live project, I was able to experience what it was like to
 
 ## <a name="story1"></a>Story 1: Creating the Basic Scenes
 For this story I created the basic scenes including the start scene, game play scene, and game over scene. I also created the basic framework of the start and game over scene in that I added text and buttons for navigation. I used a prefab called sceneLoader to implement navigation between scenes and added the scenes to the build index of the program so that the navigation could be functional. <br>
+
 I also spent time during this story to plan out the project and figure out what functionalities I would need to implement for the game. For example, I took time to read up on the classic Space Invaders game and played the game to take note of the various functionalities and behaviors of the game objects.
 
 ## <a name="story2"></a>Story 2: Level Design and Player Behavior
@@ -96,6 +101,7 @@ For the lone alien that moves at the top of the screen, I also implement automat
 
 ### <a name="alienshootingbehavior"></a>Alien Shooting Behavior
 For the alien group, I implemented a random, automatic shooting behavior. For this I also used a conditional statement based on time inside the Update function. I set the nextFire variable to the sum of a random float from a set range and the current time. Each time the current time was greater than the nextFire value, the variable value would be set again and the Shoot() function would be called. This script was added to each alien in the alien group to implement a random, constant shooting behavior. <br>
+
 In a later story, I eventually changed “Time.time” to “Time.timeSinceLevelLoad” on both the script for alien shooting behavior and the lone alien movement.  I realized because Time.time starts from when the program begins, it would cause issues whenever I would play the game again without stopping and restarting the program. Therefore, I updated it to Time.timeSinceLevelLoad so that the time would be restarted every time the scene loaded. The FINAL folder in the repository holds the code snippet of the updated scripts. <br>
 
 ![alien shooting code snippet](https://github.com/danielle-han/UnityLiveProject/blob/main/code%20summary%20snippets%20and%20gifs/story3/alienbulletshooting.png)
