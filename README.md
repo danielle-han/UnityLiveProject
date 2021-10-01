@@ -215,7 +215,7 @@ For all code snippets and gifs see the folders in this repository. The “FINAL 
 * [Code snippets and gifs taken during development](https://github.com/danielle-han/UnityLiveProject/tree/main/code%20summary%20snippets%20and%20gifs)
 
 ## <a name="skillsacquired"></a>Skills Acquired
-1.	Through this project I became familar with Unity, Object Oriented Programming, and game object manipulation with C#.
+1.	Through this project I became familiar with Unity, Object Oriented Programming, and game object manipulation with C#.
 2.	I also gained experience in collaborative work and with Agile/Scrum methodologies, DevOps, and Azure DevOps services.
 3.	The Live Project also relied heavily on version control. Therefore, I also extensively practiced making pull requests, merging, committing and pushing changes, and creating branches. 
 
